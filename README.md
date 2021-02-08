@@ -1,2 +1,4 @@
-# potodatamodel
-poto data model
+## Try it
+
+[https://my-json-server.typicode.com/shadd3/potodatamodel](https://my-json-server.typicode.com/shadd3/potodatamodel)
+
