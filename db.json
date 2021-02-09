@@ -1,13 +1,13 @@
 {
   "Nodes": [
-    { "Tag": "welcome", "questionType": "comment vas tu ?", "options": ["bien", "pas bien"] },
-    { "Tag": "finance", "questionType": "as tu des pb de finance ?", "options": ["oui", "non"] },
-    { "Tag": "common",  "questionType": "ton nom ?", "options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"] }
+    { "tag": "welcome", "question": "comment vas tu ?", "questionType": "LIST", "options": ["bien", "pas bien"] },
+    { "tag": "finance", "question": "as tu des pb de finance ?", "questionType": "LIST", "options": ["oui", "non"] },
+    { "tag": "common",  "question": "ton nom ?", "questionType": "LIST", "options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"] }
   ],
   "Links": [
-    { "Tag": "welcome", "Nexts": ["finance", "common" ] },
-    { "Tag": "finance", "Nexts": ["welcome" ] },
-    { "Tag": "common",  "Nexts": ["welcome" ]  }
+    { "tag": "welcome", "Nexts": ["finance", "common" ] },
+    { "tag": "finance", "Nexts": ["welcome" ] },
+    { "tag": "common",  "Nexts": ["welcome" ]  }
   ],
   "AnswerNode": 
     { "Tag": "welcome", "Answer": "bien" },
