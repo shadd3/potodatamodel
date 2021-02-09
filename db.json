@@ -1,14 +1,18 @@
 {
-  "Node": [
+  "Nodes": [
     { "Tag": "welcome", "questionType": "comment vas tu ?", "options": ["bien", "pas bien"] },
     { "Tag": "finance", "questionType": "as tu des pb de finance ?", "options": ["oui", "non"] },
-    { "Tag": "common",  "questionType": "ton nom ?", "options": ["option1", "stéphane", "luc", "alexandre", "ryad", "valérie"] }
+    { "Tag": "common",  "questionType": "ton nom ?", "options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"] }
   ],
-  "PostGraphDataNode": 
-    { "id": 1, "title": "Get 1" },
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "Links": [
+    { "Tag": "welcome", "Nexts": ["finance", "common" ] },
+    { "Tag": "finance", "Nexts": ["welcome" ] },
+    { "Tag": "common",  "Nexts": ["welcome" ]  }
+  ],
+  "AnswerNode": 
+    { "Tag": "welcome", "Answer": "bien" },
+  "AnswerLink": [
+    { "Tag": "welcome", "Answer": "finance" },
   ],
   "profile": {
     "name": "typicode"
