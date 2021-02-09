@@ -1,8 +1,8 @@
 {
   "GetGraphDataNodeArray": [
-    { "question": 1, "questionType": "Get 1", "options": ["option1", "option2"] },
-    { "question": 2, "questionType": "Get 2", "options": ["option1", "option2"] },
-    { "question": 3, "questionType": "Get 3", "options": ["option1", "option2"] }
+    { "id": 1, "questionType": "Get 1", "options": ["option1", "option2"] },
+    { "id": 2, "questionType": "Get 2", "options": ["option1", "option2"] },
+    { "id": 3, "questionType": "Get 3", "options": ["option1", "option2"] }
   ],
   "PostGraphDataNode": 
     { "id": 1, "title": "Get 1" },
