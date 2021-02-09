@@ -5,14 +5,14 @@
     { "tag": "common",  "question": "ton nom ?", "questionType": "LIST", "options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"] }
   ],
   "Links": [
-    { "tag": "welcome", "Nexts": ["finance", "common" ] },
-    { "tag": "finance", "Nexts": ["welcome" ] },
-    { "tag": "common",  "Nexts": ["welcome" ]  }
+    { "tag": "welcome", "nexts": ["finance", "common" ] },
+    { "tag": "finance", "nexts": ["welcome" ] },
+    { "tag": "common",  "nexts": ["welcome" ]  }
   ],
   "AnswerNode": 
-    { "Tag": "welcome", "Answer": "bien" },
+    { "tag": "welcome", "answer": "bien" },
   "AnswerLink":
-    { "Tag": "welcome", "Answer": "finance" },
+    { "tag": "welcome", "answer": "finance" },
   "profile": {
     "name": "typicode"
   }
