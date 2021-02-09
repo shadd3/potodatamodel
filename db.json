@@ -32,7 +32,7 @@
 		}
 	],
 	"AnswerNode": [{
-		"tag": "welcome",
+		"id": "welcome",
 		"answer": "bien"
 	}],
 	"AnswerLink": [{
