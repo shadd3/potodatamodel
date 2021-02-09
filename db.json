@@ -31,11 +31,11 @@
 			"nexts": ["welcome"]
 		}
 	],
-	"AnswerNode": [{
+	"ResultNodes": [{
 		"id": "welcome",
 		"answer": "bien"
 	}],
-	"AnswerLink": [{
+	"ResultLinks": [{
 		"id": "welcome",
 		"answer": "finance"
 	}],
