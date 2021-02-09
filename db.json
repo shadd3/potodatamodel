@@ -1,5 +1,5 @@
 {
-	"Nodes": [{
+	"GetSpecNodes": [{
 			"id": "welcome",
 			"question": "comment vas tu ?",
 			"questionType": "LIST",
@@ -18,7 +18,7 @@
 			"options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"]
 		}
 	],
-	"Links": [{
+	"GetSpecLinks": [{
 			"id": "welcome",
 			"nexts": ["finance", "common"]
 		},
@@ -31,11 +31,11 @@
 			"nexts": ["welcome"]
 		}
 	],
-	"ResultNodes": [{
+	"SetResultNodes": [{
 		"id": "welcome",
 		"answer": "bien"
 	}],
-	"ResultLinks": [{
+	"GetResultLinks": [{
 		"id": "welcome",
 		"answer": "finance"
 	}],
