@@ -11,9 +11,8 @@
   ],
   "AnswerNode": 
     { "Tag": "welcome", "Answer": "bien" },
-  "AnswerLink": [
+  "AnswerLink":
     { "Tag": "welcome", "Answer": "finance" },
-  ],
   "profile": {
     "name": "typicode"
   }
