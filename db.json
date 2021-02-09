@@ -9,7 +9,7 @@
       { "Tag": "welcome", "questionType": "1comment vas tu ?", "options": ["bien", "pas bien"] },
       { "Tag": "finance", "questionType": "2as tu des pb de finance ?", "options": ["oui", "non"] },
       { "Tag": "common",  "questionType": "3ton nom ?", "options": ["option1", "stéphane", "luc", "alexandre", "ryad", "valérie"] }
-    ],
+    ]
   ],
   "PostGraphDataNode": 
     { "id": 1, "title": "Get 1" },
