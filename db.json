@@ -1,19 +1,45 @@
 {
-  "Nodes": [
-    { "tag": "welcome", "question": "comment vas tu ?", "questionType": "LIST", "options": ["bien", "pas bien"] },
-    { "tag": "finance", "question": "as tu des pb de finance ?", "questionType": "LIST", "options": ["oui", "non"] },
-    { "tag": "common",  "question": "ton nom ?", "questionType": "LIST", "options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"] }
-  ],
-  "Links": [
-    { "tag": "welcome", "nexts": ["finance", "common" ] },
-    { "tag": "finance", "nexts": ["welcome" ] },
-    { "tag": "common",  "nexts": ["welcome" ]  }
-  ],
-  "AnswerNode": 
-    { "tag": "welcome", "answer": "bien" },
-  "AnswerLink":
-    { "tag": "welcome", "answer": "finance" },
-  "profile": {
-    "name": "typicode"
-  }
+	"Nodes": [{
+			"tag": "welcome",
+			"question": "comment vas tu ?",
+			"questionType": "LIST",
+			"options": ["bien", "pas bien"]
+		},
+		{
+			"tag": "finance",
+			"question": "as tu des pb de finance ?",
+			"questionType": "LIST",
+			"options": ["oui", "non"]
+		},
+		{
+			"tag": "common",
+			"question": "ton nom ?",
+			"questionType": "LIST",
+			"options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"]
+		}
+	],
+	"Links": [{
+			"tag": "welcome",
+			"nexts": ["finance", "common"]
+		},
+		{
+			"tag": "finance",
+			"nexts": ["welcome"]
+		},
+		{
+			"tag": "common",
+			"nexts": ["welcome"]
+		}
+	],
+	"AnswerNode": [{
+		"tag": "welcome",
+		"answer": "bien"
+	}],
+	"AnswerLink": [{
+		"tag": "welcome",
+		"answer": "finance"
+	}],
+	"profile": {
+		"name": "codingVR"
+	}
 }
