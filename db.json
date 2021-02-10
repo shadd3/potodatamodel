@@ -1,45 +1,47 @@
 {
-	"GetSpecNodes": [{
+	"api": {
+		"GetSpecNodes": [{
+				"id": "welcome",
+				"question": "comment vas tu ?",
+				"questionType": "LIST",
+				"options": ["bien", "pas bien"]
+			},
+			{
+				"id": "finance",
+				"question": "as tu des pb de finance ?",
+				"questionType": "LIST",
+				"options": ["oui", "non"]
+			},
+			{
+				"id": "common",
+				"question": "ton nom ?",
+				"questionType": "LIST",
+				"options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"]
+			}
+		],
+		"GetSpecLinks": [{
+				"id": "welcome",
+				"nexts": ["finance", "common"]
+			},
+			{
+				"id": "finance",
+				"nexts": ["welcome"]
+			},
+			{
+				"id": "common",
+				"nexts": ["welcome"]
+			}
+		],
+		"SetResultNodes": [{
 			"id": "welcome",
-			"question": "comment vas tu ?",
-			"questionType": "LIST",
-			"options": ["bien", "pas bien"]
-		},
-		{
-			"id": "finance",
-			"question": "as tu des pb de finance ?",
-			"questionType": "LIST",
-			"options": ["oui", "non"]
-		},
-		{
-			"id": "common",
-			"question": "ton nom ?",
-			"questionType": "LIST",
-			"options": ["valérie", "stéphane", "luc", "hildegarde", "alexandre", "ryad"]
-		}
-	],
-	"GetSpecLinks": [{
+			"answer": "bien"
+		}],
+		"GetResultLinks": [{
 			"id": "welcome",
-			"nexts": ["finance", "common"]
-		},
-		{
-			"id": "finance",
-			"nexts": ["welcome"]
-		},
-		{
-			"id": "common",
-			"nexts": ["welcome"]
+			"answer": "finance"
+		}],
+		"profile": {
+			"name": "codingVR"
 		}
-	],
-	"SetResultNodes": [{
-		"id": "welcome",
-		"answer": "bien"
-	}],
-	"GetResultLinks": [{
-		"id": "welcome",
-		"answer": "finance"
-	}],
-	"profile": {
-		"name": "codingVR"
 	}
 }
