@@ -18,7 +18,7 @@
 			"options": ["valérie", "hildegarde", "luc", "aymeric", "alexandre", "ryad"]
 		},
 		{
-			"id": "#GM_ListEnd",
+			"id": "GM_ListEnd",
 			"question": "Moi je suis célibataire et je cherche le grand amour ?? et pour toi qu’en est-il ?",
 			"questionType": "LIST",
 			"options": ["Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée"]
