@@ -15,13 +15,13 @@
 			"id": "common",
 			"question": "ton nom ?",
 			"questionType": "LIST",
-			"options": ["valérie", "hildegarde", "luc", "aymeric", "alexandre", "ryad"]
+			"options": ["valÃ©rie", "hildegarde", "luc", "aymeric", "alexandre", "ryad"]
 		},
 		{
 			"id": "GM_ListEnd",
-			"question": "Moi je suis célibataire et je cherche le grand amour ?? et pour toi qu’en est-il ?",
+			"question": "Moi je suis cÃ©libataire et je cherche le grand amour, et pour toi quâ€™en est-il ?",
 			"questionType": "LIST",
-			"options": ["Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée"]
+			"options": ["MariÃ©e", "CÃ©libataire", "PacsÃ©e", "Veuve", "En concubinage", "DivorcÃ©e"]
 		}
 	],
 	"GetSpecLinks": [{
