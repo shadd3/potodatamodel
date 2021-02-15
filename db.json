@@ -1,4 +1,13 @@
 {
+	"GetSpecMsgs": [{
+			"id": "welcome",
+			"msg": "bienvenue mon ami(e) !"
+		},
+		{
+			"id": "GM_ListEnd",
+			"msg": "si nous parlions de ta situation familiale ?"
+		}
+	],
 	"GetSpecNodes": [{
 			"id": "welcome",
 			"question": "comment vas tu ?",
