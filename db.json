@@ -10,7 +10,7 @@
 	],
 	"GetSpecNodes": [{
 			"id": "welcome",
-			"question": "comment vas tu ?",
+			"question": "comment vas tu  ?",
 			"questionType": "LIST",
 			"options": ["bien", "pas bien"]
 		},
@@ -54,7 +54,4 @@
 		"id": "welcome",
 		"answer": "finance"
 	}],
-	"profile": {
-		"name": "codingVR"
-	}
 }
