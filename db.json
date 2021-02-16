@@ -33,25 +33,36 @@
 			"options": ["Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée"]
 		}
 	],
-	"GetSpecLinks": [{
+	"GetSpecLinks": [
+		{
 			"id": "welcome",
-			"nexts": ["finance", "common"]
+			"nexts": [ "finance", "common" ]
 		},
 		{
 			"id": "finance",
-			"nexts": ["welcome"]
+			"nexts": [ "welcome" ]
 		},
 		{
 			"id": "common",
-			"nexts": ["welcome"]
+			"nexts": [ "welcome" ]
+		},
+		{
+			"id": "GM_ListOut",
+			"nexts": [ "welcome", "GM_ListStart" ]
 		}
 	],
 	"SetResultNodes": [{
 		"id": "welcome",
 		"answer": "bien"
 	}],
-	"GetResultLinks": [{
+	"GetResultLinks": [
+	{
 		"id": "welcome",
 		"answer": "finance"
-	}]
+	},
+	{
+		"id": "GM_ListOut",
+		"answer": "GM_ListStart"
+	}
+	]
 }
