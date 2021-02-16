@@ -28,9 +28,9 @@
 		},
 		{
 			"id": "GM_ListEnd",
-			"question": "Moi je suis pas vraiment célibataire et je cherche le grand amour, et pour toi qu’en est-il ?",
+			"question": "Moi je suis pas célibataire et je cherche le grand amour, et pour toi qu’en est-il ?",
 			"questionType": "LIST",
-			"options": ["Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Pas Très Divorcée"]
+			"options": ["Très Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Pas Très Divorcée"]
 		}
 	],
 	"GetSpecLinks": [
