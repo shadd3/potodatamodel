@@ -1,68 +1,92 @@
 {
-	"GetSpecMsgs": [{
-			"id": "welcome",
-			"msg": "bienvenue mon ami(e) !"
-		},
-		{
-			"id": "GM_ListEnd",
-			"msg": "si nous parlions de ta situation familiale ?"
-		}
-	],
-	"GetSpecNodes": [{
-			"id": "welcome",
-			"question": "comment vas tu  ?",
-			"questionType": "LIST",
-			"options": ["bien", "pas bien"]
-		},
-		{
-			"id": "finance",
-			"question": "as tu des pb de finance ?",
-			"questionType": "LIST",
-			"options": ["oui", "non"]
-		},
-		{
-			"id": "common",
-			"question": "ton nom ?",
-			"questionType": "LIST",
-			"options": ["valérie", "hildegarde", "luc", "aymeric", "alexandre", "ryad"]
-		},
-		{
-			"id": "GM_ListEnd",
-			"question": "Moi je suis célibataire et je cherche le grand amour, et pour toi qu’en est-il ?",
-			"questionType": "LIST",
-			"options": ["Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée", "Je ne sais pas ;)"]
-		}
-	],
-	"GetSpecLinks": [
-		{
-			"id": "welcome",
-			"nexts": [ "finance", "common" ]
-		},
-		{
-			"id": "finance",
-			"nexts": [ "welcome" ]
-		},
-		{
-			"id": "common",
-			"nexts": [ "welcome" ]
-		},
-		{
-			"id": "GM_ListOut",
-			"nexts": [ "welcome", "GM_ListStart" ]
-		}
-	],
-	"SetResultNodes": [{
-		"id": "welcome",
-		"answer": "bien"
-	}],
-	"GetResultLinks": [
-	{
-		"id": "welcome",
-		"answer": "finance"
-	},
-	{
-		"id": "GM_ListOut",
-		"answer": "GM_ListStart"
-	}
-	]
+  "GetPlayerState": [
+    {
+      "id": "",
+      "pseudo": "",
+      "themeStates": {
+        "m_keys": [
+          "EmptyTheme",
+          "FinanceV2Theme"
+        ],
+        "m_values": [
+          {
+            "lastTag": ""
+          },
+          {
+            "lastTag": ""
+          }
+        ]
+      }
+    }
+  ],
+  "GetSpecMsgs": [
+    {
+      "id": "welcome",
+      "msg": "bienvenue mon ami(e) !"
+    },
+    {
+      "id": "GM_ListEnd",
+      "msg": "si nous parlions de ta situation familiale ?"
+    }
+  ],
+  "GetSpecNodes": [
+    {
+      "id": "welcome",
+      "question": "comment vas tu  ?",
+      "questionType": "LIST",
+      "options": [ "bien", "pas bien" ]
+    },
+    {
+      "id": "finance",
+      "question": "as tu des pb de finance ?",
+      "questionType": "LIST",
+      "options": [ "oui", "non" ]
+    },
+    {
+      "id": "common",
+      "question": "ton nom ?",
+      "questionType": "LIST",
+      "options": [ "valérie", "hildegarde", "luc", "aymeric", "alexandre", "ryad" ]
+    },
+    {
+      "id": "GM_ListEnd",
+      "question": "Moi je suis célibataire et je cherche le grand amour, et pour toi qu’en est-il ?",
+      "questionType": "LIST",
+      "options": [ "Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée", "Je ne sais pas ;)" ]
+    }
+  ],
+  "GetSpecLinks": [
+    {
+      "id": "welcome",
+      "nexts": [ "finance", "common" ]
+    },
+    {
+      "id": "finance",
+      "nexts": [ "welcome" ]
+    },
+    {
+      "id": "common",
+      "nexts": [ "welcome" ]
+    },
+    {
+      "id": "GM_ListOut",
+      "nexts": [ "welcome", "GM_ListStart" ]
+    }
+  ],
+  "SetResultNodes": [
+    {
+      "id": "welcome",
+      "answer": "bien"
+    }
+  ],
+  "GetResultLinks": [
+    {
+      "id": "welcome",
+      "answer": "finance"
+    },
+    {
+      "id": "GM_ListOut",
+      "answer": "GM_ListStart"
+    }
+  ]
 }
