@@ -1,44 +1,4 @@
 {
-  "GetPlayerState": [
-    {
-      "id": "anonymous",
-      "pseudo": "",
-      "themeStates": {
-        "m_keys": [
-          "EmptyTheme",
-          "FinanceV2Theme"
-        ],
-        "m_values": [
-          {
-            "lastTag": "#welcome"
-          },
-          {
-            "lastTag": "#welcome"
-          }
-        ]
-      }
-    }
-  ],
-  "SetPlayerState": [
-    {
-      "id": "anonymous",
-      "pseudo": "",
-      "themeStates": {
-        "m_keys": [
-          "EmptyTheme",
-          "FinanceV2Theme"
-        ],
-        "m_values": [
-          {
-            "lastTag": "#welcome"
-          },
-          {
-            "lastTag": "#welcome"
-          }
-        ]
-      }
-    }
-  ],
   "GetSpecMsgs": [
     {
       "id": "welcome",
