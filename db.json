@@ -1,5 +1,5 @@
 {
-  "GetSpecMsgs": [
+  "GetSpecMsg": [
     {
       "id": "welcome",
       "msg": "bienvenue mon ami(e) !"
@@ -9,7 +9,7 @@
       "msg": "si nous parlions de ta situation familiale ?"
     }
   ],
-  "GetSpecNodes": [
+  "GetSpecNode": [
     {
       "id": "welcome",
       "question": "comment vas tu  ?",
@@ -35,7 +35,7 @@
       "options": [ "Mariée", "Célibataire", "Pacsée", "Veuve", "En concubinage", "Divorcée", "Je ne sais pas ;)" ]
     }
   ],
-  "GetSpecLinks": [
+  "GetSpecLink": [
     {
       "id": "welcome",
       "nexts": [ "finance", "common" ]
@@ -53,13 +53,13 @@
       "nexts": [ "welcome", "GM_ListStart" ]
     }
   ],
-  "SetResultNodes": [
+  "SetResultNode": [
     {
       "id": "welcome",
       "answer": "bien"
     }
   ],
-  "GetResultLinks": [
+  "GetResultLink": [
     {
       "id": "welcome",
       "answer": "finance"
